@@ -8,3 +8,6 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('frontend.index');
 });
+Route::get('/about', function () {
+    return view('frontend.about');
+});
